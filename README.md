@@ -32,7 +32,7 @@ Quando você pensa na arquitetura de um banco de dados, o DDL é o conjunto de c
 *DROP*: Remove objetos do banco de dados.
 *TRUNCATE*: Remove todos os dados de uma tabela, mantendo sua estrutura.
 
-**Exemplo prático (extraído do arquivo `Banco de Dados - ifood_Senac`):**
+**Exemplo prático (extraído do arquivo `script_ifoodSenac.sql`):**
 
 ```sql
 CREATE TABLE restaurante (
@@ -59,7 +59,7 @@ Para quem lida diretamente com a gestão de dados, os comandos DML são uma ferr
 *DELETE*: Remove registros específicos de uma tabela.
 
 
-**Exemplo prático (extraído do arquivo `Banco de Dados - ifood_Senac`):**
+**Exemplo prático (extraído do arquivo `script_ifoodSenac.sql`):**
 
 ```sql
 INSERT INTO restaurante (nome, categoria, avaliacao_media, cidade) 
